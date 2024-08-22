@@ -13,7 +13,6 @@ The `client.py` file demonstrates how to interact with the HTTP servers. It send
 The server files implement HTTP servers that can be configured to respond with different data, authentication mechanisms, and ports. The core server script is `server1.py`, which can be instantiated with different configurations. 
 
 - **Basic Server (`server1.py`):** A customizable HTTP server that supports Basic Authentication and includes a checksum for response integrity.
-- **Multiple Instances:** You can run multiple server instances with different settings using the `server_manager.py` script.
 
 ### 3. Load Balancer File (`load_balancer.py`)
 
@@ -59,10 +58,7 @@ We appreciate your contributions and look forward to your improvements!
    Ensure you have Python installed. No additional dependencies are required.
 
 3. **Run Servers and Load Balancer:**
-   - Start server instances using `server_manager.py`:
-```
-     python server_manager.py
-```
+
    - Start the load balancer using `load_balancer.py`:
 ```
      python load_balancer.py
@@ -73,6 +69,6 @@ We appreciate your contributions and look forward to your improvements!
 ```
 
 4. **Explore and Experiment:**
-   - Modify server configurations in `server1.py` and `server_manager.py`.
+   - Modify server configurations in `server1.py`
    - Add new features or improve existing ones in the scripts.
    - Test the load balancer's behavior under different scenarios, including server failures and varying loads.
